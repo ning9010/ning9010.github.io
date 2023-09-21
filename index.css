@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.daohang {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid black;
+  align-items: center;
+
+}
+
+.daohang * {
+  font: 13px sans-serif;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: rgb(227, 227, 227);
+  border: 1px solid gray;
+}
+
+.shouye {
+
+  font: 22px sans-serif;
+  font-weight: bold;
+  border-radius: 0;
+  background-color: transparent;
+  border: 0;
+  padding: 15px;
+}
+
+.mingxi {
+  margin-left: 700px;
+}
+
+
+h2 {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 800px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #99cefc;
+  font-weight: bold;
+}
+
+#yc_grey,
+#hx_grey {
+  background-color: rgb(229, 234, 238);
+}
